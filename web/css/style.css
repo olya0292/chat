@@ -9,7 +9,7 @@ html, body, .container, #chat-container{
 
 .panel{
     height: 95%;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 .msg > span{
