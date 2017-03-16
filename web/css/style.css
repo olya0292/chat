@@ -1,0 +1,17 @@
+html, body, .container, #chat-container{
+    height: 100%;
+}
+
+.panel-container{
+    height: 78%;
+    padding-top: 15px;
+}
+
+.panel{
+    height: 95%;
+    overflow-y: scroll;
+}
+
+.msg > span{
+    font-weight: 900;
+}

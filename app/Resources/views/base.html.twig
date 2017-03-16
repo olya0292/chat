@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% block title %}Chat{% endblock %}</title>
+        {% block stylesheets %}{% endblock %}
+        <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}" />
+        <link rel="stylesheet" href="{{ asset('css/style.css') }}" />
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+        <script type="text/javascript" src="{{ asset('bundles/goswebsocket/js/gos_web_socket_client.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('bundles/goswebsocket/js/vendor/autobahn.min.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('js/scripts.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('js/jquery.js') }}"></script>
+    </head>
+    <body>
+        {% block body %}{% endblock %}
+        {% block javascripts %}{% endblock %}
+    </body>
+</html>
